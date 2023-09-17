@@ -1,0 +1,15 @@
+"""
+Create a function that takes a sentence and prints how many words in the sentence (do not count the
+spaces)
+"""
+
+sentence = input("type your sentence here :")
+k=[]
+
+def word_count(input_sentence):
+    return len(input_sentence.split())
+
+
+count = word_count(sentence)
+print (count)
+
