@@ -1,0 +1,10 @@
+"""
+Create a function that takes x,y and prints all the number that can be divide by y from x to 100
+"""
+
+x = int(input("enter the first number: "))
+y = int(input("enter the second number: "))
+
+for num in range(x,101):
+    if num % y==0:
+        print (num)
