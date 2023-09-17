@@ -1,0 +1,9 @@
+"""
+Create a function takes a sentence and a word and prints how many time the word used in the sentence
+"""
+
+sentence = input("type your sentence here: ")
+word = input("type the word here: ")
+
+count_of_word = sentence.count(word)
+print(count_of_word)
