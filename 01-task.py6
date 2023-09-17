@@ -1,0 +1,11 @@
+"""
+Create a function that takes a sentence and word and remove the word from the sentence
+"""
+
+sentence = input("type your sentence here :")
+word = input("type the wordm here :")
+
+if word in sentence:
+    new = sentence.replace(word, '')
+    print(new)
+
