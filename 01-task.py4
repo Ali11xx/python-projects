@@ -1,0 +1,17 @@
+"""
+Create a function that takes a sentence and prints the sentence without duplicated words
+"""
+
+
+sentence = input("enter the sentence :")
+
+def remove_duplicates(sentence):
+    words = sentence.split(" ")
+    result = []
+    for word in words:
+        if word not in result:
+            result.append(word)
+    return " ".join(result)
+ 
+
+print(remove_duplicates(sentence))
